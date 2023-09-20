@@ -12,7 +12,7 @@ endif()
 project ("Assignment 1-1")
 
 # Add source to this project's executable.
-add_executable (CMakeTarget "numDuplicates.cpp" )
+add_executable (CMakeTarget "src/numDuplicates.cpp" )
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)
